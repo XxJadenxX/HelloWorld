@@ -6,9 +6,10 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello");
-            string hello = Console.ReadLine();
+            Console.WriteLine("Write 2 numbers");
+            float number1 = float.Parse(Console.ReadLine());
+            float number2 = float.Parse(Console.ReadLine());
+            Console.WriteLine(number1 + number2);
 
         }
     }
