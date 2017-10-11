@@ -29,7 +29,7 @@ namespace HelloWorld
             if(option == 1){
                  
             }
-            Console.WriteLine(AddTwoNumbers(n1, n2));
+            Console.WriteLine("Result of the addition" + AddTwoNumbers(n1, n2));
         }
     }
 }
