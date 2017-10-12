@@ -51,7 +51,7 @@ namespace HelloWorld
 
         public static void EvaluateOption(int option, float n1, float n2)
         {
-            if (option == 1)
+            /*if (option == 1)
             {
                 Console.WriteLine("Result of the addition" + AddTwoNumbers(n1, n2));
             } 
@@ -72,6 +72,15 @@ namespace HelloWorld
             }
             else{
                Console.WriteLine("Invalid Option");  
+            }*/
+
+            switch (option)
+            {
+            case 1:
+                    Console.WriteLine("Result of the addition" + AddTwoNumbers(n1, n2));
+                    break;
+
+                  
             }
 
             Start();
